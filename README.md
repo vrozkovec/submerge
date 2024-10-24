@@ -6,8 +6,9 @@ Submerge is a tool that aims to merge two subtitles into one ASS displaying both
 
 The project is made up of three sub-project :
 * submerge-api : a library to manage SRT and ASS subtitles
-* submerge-web : the website available at www.submerge.ovh
 * submerge-cli : a command line application with the exact same features as the website, see how to use it <a href=http://www.submerge.ovh/pages/subcli.xhtml>here</a>
+* submerge-boot : the website available at www.submerge.ovh.
+* [deprecated]submerge-web : old version of the website available at www.submerge.ovh. Java 8, legacy tomcat and postgresql database have been moved to java 17, spring boot and dynamodb with submerge-boot.
 
 # Basic use of submerge-api
 
@@ -16,7 +17,7 @@ The project is made up of three sub-project :
 <dependency>
   <groupId>com.github.dnbn.submerge</groupId>
   <artifactId>submerge-api</artifactId>
-  <version>1.9.2</version>
+  <version>1.9.3</version>
 </dependency>
 ```
 
